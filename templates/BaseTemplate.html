@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+    {% block styles %}
+        {% load staticfiles %}
+            <link rel="stylesheet" href="{% static "web/bootstrap/css/bootstrap.css" %}">
+            <link rel="stylesheet" href="{% static "web/bootstrap/css/bootstrap-responsive.css" %}">
+    {% endblock %}
+
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>
+</html>
